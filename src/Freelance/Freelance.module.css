@@ -1,0 +1,6 @@
+.freelance {
+  grid-area: fr;
+  background-color: rgb(10%, 10%, 10%);
+  grid-gap: 10px;
+  margin: 10px 10% 10px 10%;
+}
