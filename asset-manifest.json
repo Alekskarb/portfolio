@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5d46f0e4.chunk.css",
-    "main.js": "/portfolio/static/js/main.2dce6aaf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2dce6aaf.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d6f1a63f.chunk.css",
+    "main.js": "/portfolio/static/js/main.9446cdd3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9446cdd3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b6af504a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b6af504a.js.map",
     "static/js/2.ae62bdff.chunk.js": "/portfolio/static/js/2.ae62bdff.chunk.js",
     "static/js/2.ae62bdff.chunk.js.map": "/portfolio/static/js/2.ae62bdff.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d746edecbc43297e8e801c61dacbf2fd.js": "/portfolio/precache-manifest.d746edecbc43297e8e801c61dacbf2fd.js",
+    "precache-manifest.40fc64c199c7ea751fa7b986081c7c0b.js": "/portfolio/precache-manifest.40fc64c199c7ea751fa7b986081c7c0b.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5d46f0e4.chunk.css.map": "/portfolio/static/css/main.5d46f0e4.chunk.css.map",
+    "static/css/main.d6f1a63f.chunk.css.map": "/portfolio/static/css/main.d6f1a63f.chunk.css.map",
     "static/media/AVATAR.svg": "/portfolio/static/media/AVATAR.a0d4d353.svg",
-    "static/media/JS.svg": "/portfolio/static/media/JS.80dd5e8a.svg",
+    "static/media/JS.svg": "/portfolio/static/media/JS.777c6852.svg",
     "static/media/browse_site.jpg": "/portfolio/static/media/browse_site.ce001965.jpg",
-    "static/media/css.svg": "/portfolio/static/media/css.3c51b0ae.svg",
-    "static/media/logo-javascript.png": "/portfolio/static/media/logo-javascript.423b97b4.png",
-    "static/media/react.svg": "/portfolio/static/media/react.ce1bbf56.svg"
+    "static/media/css.svg": "/portfolio/static/media/css.d99d3fbf.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.c760c74b.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.bddd5fa4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b6af504a.js",
     "static/js/2.ae62bdff.chunk.js",
-    "static/css/main.5d46f0e4.chunk.css",
-    "static/js/main.2dce6aaf.chunk.js"
+    "static/css/main.d6f1a63f.chunk.css",
+    "static/js/main.9446cdd3.chunk.js"
   ]
 }
