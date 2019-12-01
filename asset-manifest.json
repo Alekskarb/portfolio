@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f6a04453.chunk.css",
-    "main.js": "/portfolio/static/js/main.0912084b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0912084b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.73dd7836.chunk.css",
+    "main.js": "/portfolio/static/js/main.d11e53d2.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d11e53d2.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b6af504a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b6af504a.js.map",
     "static/js/2.adc99d60.chunk.js": "/portfolio/static/js/2.adc99d60.chunk.js",
     "static/js/2.adc99d60.chunk.js.map": "/portfolio/static/js/2.adc99d60.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.490c57db262566669cb1dfe163de975f.js": "/portfolio/precache-manifest.490c57db262566669cb1dfe163de975f.js",
+    "precache-manifest.8cbb1754ef57a10f4af6deb5a708309d.js": "/portfolio/precache-manifest.8cbb1754ef57a10f4af6deb5a708309d.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.f6a04453.chunk.css.map": "/portfolio/static/css/main.f6a04453.chunk.css.map",
+    "static/css/main.73dd7836.chunk.css.map": "/portfolio/static/css/main.73dd7836.chunk.css.map",
     "static/media/1.jpg": "/portfolio/static/media/1.1c57faa7.jpg",
     "static/media/2.jpg": "/portfolio/static/media/2.abba63e2.jpg",
     "static/media/3.jpg": "/portfolio/static/media/3.26aa98c8.jpg",
@@ -20,14 +20,14 @@
     "static/media/gmail.svg": "/portfolio/static/media/gmail.be933daa.svg",
     "static/media/html.svg": "/portfolio/static/media/html.c760c74b.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.c4bbde93.svg",
-    "static/media/react.svg": "/portfolio/static/media/react.bddd5fa4.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.43853363.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.7199466c.svg",
     "static/media/viber.svg": "/portfolio/static/media/viber.c5ad4cc4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b6af504a.js",
     "static/js/2.adc99d60.chunk.js",
-    "static/css/main.f6a04453.chunk.css",
-    "static/js/main.0912084b.chunk.js"
+    "static/css/main.73dd7836.chunk.css",
+    "static/js/main.d11e53d2.chunk.js"
   ]
 }
