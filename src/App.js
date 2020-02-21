@@ -86,7 +86,7 @@ class App extends React.Component {
             <div className="App">
 
                 <Header />
-                <AboutMe className='aboutMe'/>
+                <AboutMe />
                 <Particles className='particles'
                                      params={parts}/>
                 <Skills skills={this.state.skills}/>

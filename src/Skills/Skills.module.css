@@ -1,11 +1,14 @@
 .skills {
-    /*grid-area: s;*/
-    /*grid-gap: 5px;*/
-    /*margin: 10px 10% 10px 10%;*/
+
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 80vh;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .container {

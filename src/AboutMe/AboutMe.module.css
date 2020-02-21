@@ -3,7 +3,12 @@
     min-height: 50vh;
     display: flex;
     justify-content: space-around;
-
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
 }
 
 .main {
@@ -15,6 +20,7 @@
     align-items: center;
     color: white;
     flex-wrap: wrap;
+
 }
 .hello {
     letter-spacing: 5px;
@@ -65,5 +71,6 @@
     top: -17px;
     z-index: -1;
 }
+
 
 
