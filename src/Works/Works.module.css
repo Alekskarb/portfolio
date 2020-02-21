@@ -56,8 +56,11 @@
   background-size: cover;
   background-position: 50%;
   width: 300px;
+  transition: 500ms;
 }
-
+.image:hover{
+  transform: rotate(360deg)
+}
 .buttonClick
 {
   font-size: 10pt;
