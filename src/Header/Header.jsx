@@ -1,18 +1,14 @@
 import React from 'react';
 import s from './Header.module.css';
+import Navigation from "../Navigation";
 
 const Header = () => {
     return (
-        <>
         <div className={s.header}>
-                <span className={s.main}>
-                    <a href={''}> Main </a>
-                    <a href={''}> Skills </a>
-                    <a href={''}> Jobs </a>
-                    <a href={''}> Contacts </a>
-                </span>
+        <div className={s.main}>
+            <Navigation />
             </div>
-            </>
+            </div>
     );
 }
 

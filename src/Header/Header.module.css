@@ -1,30 +1,21 @@
 
 .header {
-    grid-area: h;
-    grid-gap: 5px;
-    width: 80%;
-    margin: 20px 10% 10px 10%;
-    background-color: rgb(30%, 30%, 30%);
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     justify-content: center;
     font-size: 14px;
-    color: lightgreen;
+    height: 7vh;
+    width: 100%;
+    z-index: 22;
 }
-.main {
-    /*height: 33px;*/
-    width: 180px;
-    border: 2px solid grey;
-    padding: 5px;
-    display: flex;
-  flex-direction: row;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    opacity: 0.5;
-    margin: 20px;
-    color: white;
 
+.main {
+    position: fixed;
+    min-height: 55px;
+    width: 100%;
+    border-bottom: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(55, 55, 55, 0.78);
+    background-color: #000000;
 }

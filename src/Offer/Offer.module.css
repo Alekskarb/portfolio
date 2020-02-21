@@ -1,0 +1,55 @@
+.freelance {
+  /*grid-area: fr;*/
+  /*grid-gap: 10px;*/
+  /*margin: 10px 10% 10px 10%;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  height: 30vh;
+}
+
+.container {
+  width: 90%;
+  /*background-color: rgb(30%, 30%, 30%);*/
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  /*margin: 10px;*/
+  /*background-color: darkgray;*/
+  /*border: 1px solid;*/
+  font-size: 16pt;
+}
+
+.wrap {
+  width: 320px;
+  height: 100%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid;*/
+}
+
+.title {
+  font-size: 24px;
+  margin: 10px;
+  color: lightgreen;
+}
+
+.buttonClick
+{
+  font-size: 10pt;
+  margin: 15px;
+  width: 80px;
+  height: 30px;
+
+  color: purple;
+  border-radius: 10px;
+  background-color: lightgreen;
+}

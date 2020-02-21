@@ -1,0 +1,18 @@
+.navigation {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1111;
+}
+
+.link {
+    color: cyan;
+}
+
+.link:active {
+    color: blue;
+}
+
+.link:after {
+    color: red;
+}
