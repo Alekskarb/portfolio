@@ -4,7 +4,7 @@ import {Rotate} from "react-reveal";
 
 const Works = (props) => {
     return (
-        <div className={s.works} id={2}>
+        <div className={s.works} id='#2'>
             <div className={s.container}>
                 <span className={s.title}> My Works </span>
                 <Rotate top left>

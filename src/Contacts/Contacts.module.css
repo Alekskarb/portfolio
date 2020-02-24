@@ -80,6 +80,7 @@
 
 .buttonClick:hover:after{
     color: red;
+    background-color: cyan;
 }
 
 .buttonClick:hover{

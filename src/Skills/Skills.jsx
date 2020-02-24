@@ -4,7 +4,7 @@ import {Flip} from "react-reveal";
 
 const Skills = (props) => {
 
-    return <div className={s.skills} id={1}>
+    return <div className={s.skills} id='#1'>
         <div className={s.container}>
             <span className={s.title}> My Skills </span>
             <Flip left>

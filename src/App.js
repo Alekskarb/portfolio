@@ -99,16 +99,11 @@ class App extends React.Component {
                                params={parts}/>
                     <Header/>
                     <AboutMe/>
-                    <Skills to='/#1' skills={this.state.skills}/>
+                    <Skills skills={this.state.skills}/>
                     <Works work={this.state.work}/>
                     <Offer/>
                     <Contacts/>
-                <Link activeClass="active"
-                      to="/portfolio/#3"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration= {500}>
+                <Link >
                     <Footer footer={this.state.footer}/>
                 </Link>
             </div>
