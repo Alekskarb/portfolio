@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <div className={s.navigation}>
             <Link activeClass="active"
-                  to=""
+                  to="#0"
                   spy={true}
                   smooth={true}
                   offset={-70}

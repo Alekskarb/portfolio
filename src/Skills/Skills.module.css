@@ -47,8 +47,8 @@
 .icon {
 display: flex;
     justify-content: space-between;
-    min-height: 300px;
-    max-width: 300px;
+    max-height: 300px;
+    max-width: 200px;
 }
 
 .title {

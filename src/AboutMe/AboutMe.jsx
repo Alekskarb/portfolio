@@ -4,7 +4,7 @@ import pict from './AVATAR.svg';
 
 const AboutMe = () => {
     return (
-        <div className={s.aboutMe}>
+        <div className={s.aboutMe} id='#0'>
             <div className={s.main}>
                 <div className={s.greeting}>
                     <span className={s.hello}> Hello ) </span>
@@ -17,6 +17,6 @@ const AboutMe = () => {
             </div>
         </div>
     );
-}
+};
 
 export default AboutMe;

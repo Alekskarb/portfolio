@@ -87,7 +87,7 @@ class App extends React.Component {
                     value: 100,
                     density: {
                         enable: true,
-                        value_area: 3000,
+                        value_area: 600,
                     }
                 }
             }
