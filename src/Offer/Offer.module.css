@@ -50,14 +50,15 @@
   margin: 15px;
   width: 80px;
   height: 30px;
-
-  color: purple;
+  color: white;
   border-radius: 10px;
   background-color: lightgreen;
+  text-line-through: none;
 }
 .buttonClick:hover{
   transform: scale(1.1, 1.1);
   transition: 1s;
+  text-line-through: none;
 }
 .buttonClick:hover:after{
   color: red;

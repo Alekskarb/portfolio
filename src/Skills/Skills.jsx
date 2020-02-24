@@ -12,7 +12,7 @@ const Skills = (props) => {
                     <div key={sk.id}
                          className={s.block}>
                         <div className={s.icon}>
-                            <img src={sk.icon} width='100%' alt='the world is mine'/>
+                            <img src={sk.icon} width='80%' alt='the world is mine'/>
                         </div>
                         <h2> {sk.title} </h2>
                         <span> {sk.description} </span>

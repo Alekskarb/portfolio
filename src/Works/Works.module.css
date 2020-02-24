@@ -43,7 +43,7 @@
   /*background-color: grey;*/
   align-items: center;
   justify-content: space-around;
-  /*margin: 10px;*/
+  margin: 20px;
 }
 
 .image {
@@ -59,7 +59,7 @@
   width: 250px;
   transition: 1000ms;
 }
-.image:hover {filter: blur(5px)}
+.image:hover {filter: grayscale(90%)}
 
 
 .buttonClick {
@@ -68,7 +68,7 @@
   width: 80px;
   height: 30px;
 
-  color: purple;
+  color: white;
   border-radius: 10px;
   background-color: lightgreen;
 }

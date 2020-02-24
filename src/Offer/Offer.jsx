@@ -11,7 +11,7 @@ const Offer = () => {
                     </span>
                     <div>
                         <button className={s.buttonClick}>
-                            <a href="https://www.linkedin.com/in/skarb/"> Hire Me </a>
+                            <a href="https://www.linkedin.com/in/skarb/"> HIRE ME </a>
                         </button>
                     </div>
                 </div>

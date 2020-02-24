@@ -60,28 +60,29 @@
     background-color: darkgray;
 }
 .form:focus{
-    color: orangered;
+    color: lightgreen;
 }
 .buttonClick
 {
     font-size: 10pt;
-  margin: 10px;
-    /*width: 80px;*/
-    /*height: 30px;*/
-
-    /*color: white;*/
+    margin: 15px;
+    width: 80px;
+    height: 30px;
+    color: purple;
     border-radius: 10px;
     background-color: lightgreen;
-    font-weight: 400;
-    padding: 8px 30px;
+    font-weight: 800;
     max-width: 190px;
     z-index: 0;
+    text-decoration-style: double;
     backface-visibility: hidden;
 }
 
-.buttonClick:hover:after{
+.buttonClick:hover::after{
     color: white;
+    float: inherit;
     background-color: orangered;
+
 }
 
 .buttonClick:hover{
