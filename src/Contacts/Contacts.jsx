@@ -3,7 +3,7 @@ import s from './Contacts.module.css';
 
 const Contacts = () => {
     return (
-        <div className={s.contacts}>
+        <div className={s.contacts} id={3}>
             <div className={s.main}>
                 <span className={s.title}> Contacts </span>
                 <form className={s.wrapper}>
