@@ -74,6 +74,11 @@
     max-width: 190px;
     z-index: 0
 }
+
+.buttonClick:hover:after{
+    color: red;
+}
+
 .buttonClick:hover{
     transform: scale(1.1, 1.1);
     transition: 1s;

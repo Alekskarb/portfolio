@@ -9,7 +9,7 @@ const Offer = () => {
                         <span className={s.title}> Looking for Offer </span>
                     <div>
                         <button className={s.buttonClick}>
-                            <a href="https://alekskarb.github.io/counter/"> Hire Me </a>
+                            <a href="https://www.linkedin.com/in/skarb/"> Hire Me </a>
                         </button>
                     </div>
                 </div>
