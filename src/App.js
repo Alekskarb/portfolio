@@ -11,9 +11,10 @@ import html from './img/html.svg'
 import css from './img/css.svg'
 import jas from './img/JS.svg'
 import react from './img/react.svg'
+import redux from './img/redux.svg'
 import linkedin from './img/linkedin.svg'
 import Telegram from './img/telegram.svg'
-import Viber from './img/viber.svg'
+import codewars from './img/codewars.svg'
 import Gmail from './img/gmail.svg'
 import project1 from './img/1.jpg'
 import project2 from './img/2.jpg'
@@ -25,19 +26,22 @@ class App extends React.Component {
     state = {
         work: [{
             id: 0,
-            name: 'HTML',
+            name: 'api',
             description: 'counter',
-            icon: project1
+            icon: project1,
+            reference: 'https://alekskarb.github.io/React_SN/',
         }, {
             id: 1,
-            title: 'HTML',
+            name: 'thunk',
             description: 'social net',
-            icon: project2
+            icon: project2,
+            reference: 'https://alekskarb.github.io/redux/',
         }, {
             id: 2,
-            title: 'HTML',
+            name: 'redux',
             description: 'calculator',
-            icon: project3
+            icon: project3,
+            reference: 'https://alekskarb.github.io/Thunk/',
         },],
         skills: [{
             id: 0,
@@ -62,11 +66,17 @@ class App extends React.Component {
                 title: 'React',
                 description: 'exellent',
                 icon: react
+            },
+            {
+                id: 3,
+                title: 'Redux',
+                description: 'incredible',
+                icon: redux
             },],
         footer: [{id: 0, title: 'linkedin', icon: linkedin},
             {id: 1, title: 'Gmail', icon: Gmail},
             {id: 2, title: 'Telegram', icon: Telegram},
-            {id: 3, title: 'Viber', icon: Viber},
+            {id: 3, title: 'codewars', icon: codewars},
         ]
     };
 

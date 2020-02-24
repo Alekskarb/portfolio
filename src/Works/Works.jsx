@@ -10,9 +10,9 @@ const Works = (props) => {
                 <Rotate top left>
                     <div className={s.wrap}>
                         {props.work.map(w => <div className={s.block} key={w.id}>
-                            <div className={s.image} style={{ backgroundImage: "url(" + `${w.icon}` + ")",}}>
+                            <div className={s.image} style={{ backgroundImage: "url(" + `${w.icon}` + ")"}}>
                                 <button className={s.buttonClick}>
-                                    <a href='https://alekskarb.github.io/React_SN/'> Watch </a>
+                                    <a href={w.reference}> Watch </a>
                                 </button>
                             </div>
                             <span> {w.name} </span>
