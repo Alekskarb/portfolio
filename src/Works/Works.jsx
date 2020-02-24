@@ -22,7 +22,6 @@ const Works = (props) => {
                 </Rotate>
             </div>
         </div>
-);
+    );
 };
 export default Works;
-{/*<img src={w.icon} className={s.img} alt='my job'/>*/}

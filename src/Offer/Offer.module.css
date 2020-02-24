@@ -55,3 +55,10 @@
   border-radius: 10px;
   background-color: lightgreen;
 }
+.buttonClick:hover{
+  transform: scale(1.1, 1.1);
+  transition: 1s;
+}
+.buttonClick:hover:after{
+  color: red;
+}
