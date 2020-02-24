@@ -9,7 +9,7 @@ const Contacts = () => {
                 <form className={s.wrapper}>
                     <input className={s.form} placeholder='Your Name' type='text'/>
                     <input className={s.form} placeholder='e-mail' type='e-mail'/>
-                    <textarea className={s.form} title='text message'/>
+                    <textarea className={s.form} placeholder='text message'/>
                     <button className={s.buttonClick}>
                         <a href="https://alekskarb.github.io/portfolio/"> SEND </a>
                     </button>

@@ -73,10 +73,16 @@ class App extends React.Component {
                 description: 'incredible',
                 icon: redux
             },],
-        footer: [{id: 0, title: 'linkedin', icon: linkedin},
-            {id: 1, title: 'Gmail', icon: Gmail},
-            {id: 2, title: 'Telegram', icon: Telegram},
-            {id: 3, title: 'codewars', icon: codewars},
+        footer: [
+            {id: 0, title: 'linkedin', icon: linkedin, reference: 'https://www.linkedin.com/in/skarb/',},
+            {id: 1, title: 'Gmail', icon: Gmail, reference: 'https://github.com/Alekskarb',},
+            {id: 2, title: 'Telegram', icon: Telegram, reference: 'https://t.me/Alekskarb',},
+            {
+                id: 3,
+                title: 'codewars',
+                icon: codewars,
+                reference: 'https://www.codewars.com/users/Alekskarb/completed',
+            },
         ]
     };
 
@@ -94,18 +100,15 @@ class App extends React.Component {
         };
         return (
             <div className="App">
-
-                    <Particles className='particles'
-                               params={parts}/>
-                    <Header/>
-                    <AboutMe/>
-                    <Skills skills={this.state.skills}/>
-                    <Works work={this.state.work}/>
-                    <Offer/>
-                    <Contacts/>
-                <Link >
-                    <Footer footer={this.state.footer}/>
-                </Link>
+                <Particles className='particles'
+                           params={parts}/>
+                <Header/>
+                <AboutMe/>
+                <Skills skills={this.state.skills}/>
+                <Works work={this.state.work}/>
+                <Offer/>
+                <Contacts/>
+                <Footer footer={this.state.footer}/>
             </div>
         )
     }

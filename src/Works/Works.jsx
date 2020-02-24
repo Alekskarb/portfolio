@@ -12,7 +12,7 @@ const Works = (props) => {
                         {props.work.map(w => <div className={s.block} key={w.id}>
                             <div className={s.image} style={{ backgroundImage: 'url('+ `${w.icon}` +')'}}>
                                 <button className={s.buttonClick}>
-                                    <a href={w.reference}> WATCH </a>
+                                    <a href={w.reference} > WATCH </a>
                                 </button>
                             </div>
                             <span> {w.name} </span>

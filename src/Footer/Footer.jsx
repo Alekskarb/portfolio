@@ -8,8 +8,11 @@ const Footer = (props) => {
                 <span className={s.title}> Alex Korbutovski </span>
                 <div className={s.wrapper}>
                     {
-                        props.footer.map(f => <div key={f.id} className={s.icon}>
-                            <img src={f.icon} width='100%' alt='social nets'/></div>)
+                        props.footer.map(f => <a href={f.reference} key={f.id} className={s.icon} style={{ backgroundImage: 'url('+ `${f.icon}` +')'}}>
+                            {/*<a href={f.reference}> </a>*/}
+                            {/*<img src={f.icon} width='100%' alt='social nets'/>*/}
+
+                        </a>)
                     }
                 </div>
                 <span className={s.title}> All Rights Reserved, 2019 </span>
