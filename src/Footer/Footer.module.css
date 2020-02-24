@@ -57,7 +57,10 @@
 
     width: 65px;
     height: 65px;
-    /*background-color: grey;*/
+}
+.icon:hover{
+    transform: scale(1.1, 1.1);
+    transition: 1s;
 }
 
 @media screen and (max-width: 500px)

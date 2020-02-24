@@ -58,7 +58,9 @@
     margin: 5px;
     background-color: darkgray;
 }
-
+.form:focus{
+    color: mediumvioletred;
+}
 .buttonClick
 {
     font-size: 10pt;

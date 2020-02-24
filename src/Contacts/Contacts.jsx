@@ -11,7 +11,7 @@ const Contacts = () => {
                     <input className={s.form} placeholder='e-mail' type='e-mail'/>
                     <textarea className={s.form} title='text message'/>
                     <button className={s.buttonClick}>
-                        <a href="https://github.com/Alekskarb/Thunk.git"> SEND </a>
+                        <a href="https://alekskarb.github.io/Thunk/"> SEND </a>
                     </button>
                 </form>
             </div>
