@@ -6,11 +6,11 @@ const Works = (props) => {
     return (
         <div className={s.works} id={2}>
             <div className={s.container}>
-                <span className={s.title}> My Jobs </span>
+                <span className={s.title}> My Works </span>
                 <Rotate top left>
                     <div className={s.wrap}>
                         {props.work.map(w => <div className={s.block} key={w.id}>
-                            <div className={s.image}>
+                            <div className={s.image} style={{ backgroundImage: "url(" + `${w.icon}` + ")",}}>
                                 <button className={s.buttonClick}>
                                     <a href='https://alekskarb.github.io/React_SN/'> Watch </a>
                                 </button>

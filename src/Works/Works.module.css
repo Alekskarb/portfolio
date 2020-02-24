@@ -52,16 +52,16 @@
   /*min-width: 350px;*/
   justify-content: center;
   align-items: center;
-  background-image: url(https://uploads.dev.by/resources/1ab307c0-7633-4f42-90b4-2448e53a9802/optimized/9626f87cb4.jpeg);
+  /*background-image: url(https://uploads.dev.by/resources/1ab307c0-7633-4f42-90b4-2448e53a9802/optimized/9626f87cb4.jpeg);*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
   width: 300px;
   transition: 500ms;
 }
-.image:hover{
-  transform: rotate(360deg)
-}
+.image:hover {filter: blur(5px)}
+
+
 .buttonClick {
   font-size: 10pt;
   margin: 15px;
