@@ -6,7 +6,9 @@ const Offer = () => {
         <div className={s.freelance}>
             <div className={s.container}>
                 <div className={s.wrap}>
-                        <span className={s.title}> Looking for Offer </span>
+                    <span className={s.title}>
+                        Looking for Offer
+                    </span>
                     <div>
                         <button className={s.buttonClick}>
                             <a href="https://www.linkedin.com/in/skarb/"> Hire Me </a>
@@ -16,6 +18,6 @@ const Offer = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Offer;

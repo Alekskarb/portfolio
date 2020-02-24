@@ -19,7 +19,7 @@ import project1 from './img/1.jpg'
 import project2 from './img/2.jpg'
 import project3 from './img/3.jpg'
 import Particles from "react-particles-js";
-
+import {Link, animateScroll as scroll} from "react-scroll";
 
 class App extends React.Component {
     state = {
@@ -85,15 +85,33 @@ class App extends React.Component {
         return (
             <div className="App">
 
-                <Header />
-                <AboutMe />
-                <Particles className='particles'
-                                     params={parts}/>
-                <Skills skills={this.state.skills}/>
-                <Works work={this.state.work}/>
-                <Offer/>
-                <Contacts/>
-                <Footer footer={this.state.footer}/>
+                    <Particles className='particles'
+                               params={parts}/>
+                    <Header/>
+                    <AboutMe/>
+                    <Link to='#1' activeClass="active"
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration= {500}>
+                    <Skills skills={this.state.skills}/>
+                    </Link>
+                <Link to='#2' activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration= {500}><Works work={this.state.work}/>
+                </Link>
+                    <Offer/>
+                <Link to='#3' activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration= {500}>
+                    <Contacts/>
+            </Link>
+                    <Footer footer={this.state.footer}/>
+
             </div>
         )
     }

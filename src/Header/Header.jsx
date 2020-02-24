@@ -5,10 +5,10 @@ import Navigation from "../Navigation";
 const Header = () => {
     return (
         <div className={s.header}>
-        <div className={s.main}>
-            <Navigation />
+            <div className={s.main}>
+                <Navigation/>
             </div>
-            </div>
+        </div>
     );
 }
 

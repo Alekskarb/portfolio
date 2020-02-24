@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     z-index: 1111;
+    scroll-behavior: smooth
 }
 
 .link {
