@@ -6,7 +6,7 @@ const Skills = (props) => {
 
     return <div className={s.skills} id='#1'>
         <div className={s.container}>
-            <span className={s.title}> My Skills </span>
+            <h2 className={s.title}> My Skills </h2>
             <Flip left>
                 <div className={s.skillWrap}>{props.skills.map(sk =>
                     <div key={sk.id}
@@ -14,7 +14,7 @@ const Skills = (props) => {
                         <div className={s.icon}>
                             <img src={sk.icon} width='80%' alt='the world is mine'/>
                         </div>
-                        <h2> {sk.title} </h2>
+                        <h3> {sk.title} </h3>
                         <span> {sk.description} </span>
                     </div>)}
                 </div>
