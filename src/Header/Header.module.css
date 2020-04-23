@@ -18,10 +18,11 @@
     position: fixed;
     min-height: 55px;
     width: 100%;
-    border-bottom: 5px solid;
+    /*border-bottom: 5px solid;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    border-color: rgba(55, 55, 55, 0.78);
+    box-shadow: 0 0 13px #cccccc;
+    /*border-color: rgba(55, 55, 55, 0.78);*/
     background-color: #000000;
 }

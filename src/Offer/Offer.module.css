@@ -10,6 +10,8 @@
   justify-content: center;
   font-size: 24px;
   height: 30vh;
+  background-attachment: fixed;
+  background-color: black;
 }
 
 .container {
