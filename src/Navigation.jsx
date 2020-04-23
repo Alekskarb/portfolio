@@ -10,25 +10,25 @@ const Navigation = () => {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration= {500} className={s.link}> Main </Link>
+                  duration= {900} className={s.link}> Main </Link>
             <Link activeClass="active"
                   to="#1"
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration= {500} className={s.link}> Skills </Link>
+                  duration= {900} className={s.link}> Skills </Link>
             <Link activeClass="active"
                   to="#2"
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration= {500} className={s.link}> Works </Link>
+                  duration= {900} className={s.link}> Works </Link>
             <Link activeClass="active"
                   to="#3"
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration= {500} className={s.link}> Contacts </Link>
+                  duration= {900} className={s.link}> Contacts </Link>
         </div>
     );
 }

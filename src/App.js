@@ -20,7 +20,6 @@ import project1 from './img/1.jpg'
 import project2 from './img/2.jpg'
 import project3 from './img/3.jpg'
 import Particles from "react-particles-js";
-import {Link, animateScroll as scroll} from "react-scroll";
 
 class App extends React.Component {
     state = {
