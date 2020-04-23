@@ -5,15 +5,20 @@
     z-index: 1111;
     scroll-behavior: smooth
 }
+.link:link {
+    color: yellow;
+}
 
+.link:visited {
+    color: green;
+}
 .link {
     color: cyan;
 }
-
-.link:active {
-    color: blue;
+.link:hover {
+    color: deepskyblue;
+        transform: scale(1.1) skew(-14deg);
 }
-
-.link:after {
+.link:active {
     color: red;
 }

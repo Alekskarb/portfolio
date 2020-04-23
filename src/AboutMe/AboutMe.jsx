@@ -8,7 +8,7 @@ const AboutMe = () => {
             <div className={s.main}>
                 <div className={s.greeting}>
                     <span className={s.hello}> Hello ) </span>
-                    <span> I am  ALEX <span> KORBUTOVSKI </span> </span>
+                    <span> I am  ALEX <span className={s.more}>  KORBUTOVSKI </span> </span>
                     <h1> a frontend-developer </h1>
                 </div>
                 <div className={s.img}>
