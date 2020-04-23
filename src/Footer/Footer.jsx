@@ -15,7 +15,11 @@ const Footer = (props) => {
                         </a>)
                     }
                 </div>
-                <span className={s.title}> All Rights Reserved, 2019 </span>
+                <span >
+                    <h6>
+                        All Rights Reserved 2019
+                    </h6>
+                     </span>
             </div>
         </div>
     );

@@ -24,7 +24,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    min-height: 200px;
+    min-height: 330px;
     width: 90%;
 }
 
@@ -32,7 +32,7 @@
 {
     font-size: 24px;
 
-    margin: 20px;
+    margin: 15px;
     color: lightgreen;
 }
 
@@ -42,30 +42,39 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 200px;
+    height: 300px;
     width: 90%;
 }
 
-.form
-{
+.form {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: space-between;
+    font-size: 14px;
     width: 360px;
-    /*border: 1px solid;*/
-    height: 35px;
-    margin: 5px;
+    border: 1px solid lightcyan ;
+    height: 43px;
+    /*padding: 10px;*/border-radius: 10px;
     background-color: white;
 }
-.form:focus{
-    color: lightgreen;
+.form:focus {
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+    color: black;
+}
+input textarea {
+    width: 360px;
+    height: 40px;
+    /*margin: 10px;*/
+    padding: 5px;
 }
 .buttonClick
 {
     font-size: 10pt;
-    margin: 15px;
+    margin-bottom: 25px;
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -75,12 +84,7 @@
     z-index: 0;
 }
 
-.buttonClick:hover::after{
-    color: white;
-    float: inherit;
-    background-color: orangered;
 
-}
 
 .buttonClick:hover{
     transform: scale(1.1, 1.1);

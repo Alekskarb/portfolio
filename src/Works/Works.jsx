@@ -10,11 +10,13 @@ const Works = (props) => {
                 <Rotate top left>
                     <div className={s.wrap}>
                         {props.work.map(w => <div className={s.block} key={w.id}>
+
                             <div className={s.image} style={{ backgroundImage: 'url('+ `${w.icon}` +')'}}>
-                                <button className={s.buttonClick}>
-                                    <a href={w.reference} > WATCH </a>
-                                </button>
                             </div>
+                            <button className={s.buttonClick}>
+                                <a href={w.reference} > WATCH </a>
+                            </button>
+
                             <span> {w.name} </span>
                             <span> {w.description} </span>
                         </div>)}

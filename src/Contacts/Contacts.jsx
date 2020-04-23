@@ -7,11 +7,13 @@ const Contacts = () => {
             <div className={s.main}>
                 <span className={s.title}> Contacts </span>
                 <form className={s.wrapper}>
-                    <input className={s.form} placeholder='Your Name' type='text'/>
-                    <input className={s.form} placeholder='e-mail' type='e-mail'/>
-                    <textarea className={s.form} placeholder='text message'/>
-                    <button className={s.buttonClick}>
-                        <a href="https://alekskarb.github.io/portfolio/"> SEND </a>
+                    {/*<label htmlFor={'contacts'}>Please, enter Your Name</label>*/}
+                    <input className={s.form} placeholder='Your Name' name={'contacts'} type='text'/>
+                    <input className={s.form} placeholder='e-mail'   name={'contacts'}type='email'/>
+                    <textarea className={s.form} placeholder='text message'  name={'contacts'} cols={'22'} rows={'3'}/>
+                    <button className={s.buttonClick}> SEND
+                        {/*<a href="https://alekskarb.github.io/portfolio/"> SEND </a>*/}
+                        <input type="submit" value={'SEND'} hidden={true}/>
                     </button>
                 </form>
             </div>
