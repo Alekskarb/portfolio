@@ -1,5 +1,4 @@
-.contacts
-{
+.contacts {
     font-size: 24px;
 
     display: flex;
@@ -16,8 +15,7 @@
     scroll-behavior: smooth
 }
 
-.main
-{
+.main {
     font-size: 24px;
 
     display: flex;
@@ -28,16 +26,14 @@
     width: 90%;
 }
 
-.title
-{
+.title {
     font-size: 24px;
 
     margin: 15px;
     color: lightgreen;
 }
 
-.wrapper
-{
+.wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -53,11 +49,13 @@
     justify-content: space-between;
     font-size: 14px;
     width: 360px;
-    border: 1px solid lightcyan ;
+    border: 1px solid lightcyan;
     height: 43px;
-    /*padding: 10px;*/border-radius: 10px;
+    /*padding: 10px;*/
+    border-radius: 10px;
     background-color: white;
 }
+
 .form:focus {
     width: 350px;
     background-color: #ffffff;
@@ -65,14 +63,15 @@
     box-shadow: 0 0 10px cyan;
     color: black;
 }
+
 input textarea {
     width: 360px;
     height: 40px;
     /*margin: 10px;*/
     padding: 5px;
 }
-.buttonClick
-{
+
+.buttonClick {
     font-size: 10pt;
     margin-bottom: 25px;
     width: 100px;
@@ -85,24 +84,19 @@ input textarea {
 }
 
 
-
-.buttonClick:hover{
+.buttonClick:hover {
     transform: scale(1.1, 1.1);
     transition: 1s;
 }
 
-@media screen and (max-width: 500px)
-{
-    .wrapper
-    {
+@media screen and (max-width: 500px) {
+    .wrapper {
         width: 100%;
     }
 }
 
-@media screen and (max-width: 500px)
-{
-    .form
-    {
+@media screen and (max-width: 500px) {
+    .form {
         width: 250px;
         height: 30px;
     }

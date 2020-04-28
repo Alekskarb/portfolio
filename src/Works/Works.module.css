@@ -57,12 +57,13 @@
   /*background-image: url(https://uploads.dev.by/resources/1ab307c0-7633-4f42-90b4-2448e53a9802/optimized/9626f87cb4.jpeg);*/
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: 50%; 
   width: 250px;
   transition: 1000ms;
+  box-shadow: 0 0 10px 10px darkslategrey;
 }
-.image:hover {filter: grayscale(90%);
-transform: translate(11px);
+.image:hover {filter: brightness(140%);
+transform: translate(2px);
 transition: 1s}
 
 .buttonClick {
