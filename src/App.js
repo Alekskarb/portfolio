@@ -25,15 +25,15 @@ class App extends React.Component {
     state = {
         work: [{
             id: 0,
-            name: 'api',
-            description: 'counter',
+            name: 'counter',
+            description: 'Use React, ',
             icon: project1,
             reference: 'https://github.com/Alekskarb/React_SN',
             // reference: 'https://alekskarb.github.io/React_SN/',
         }, {
             id: 1,
-            name: 'thunk',
-            description: 'social net',
+            name: 'social net',
+            description: 'Use React-Redux, thunk, axios',
             icon: project2,
             reference: 'https://github.com/Alekskarb/redux',
             // reference: 'https://alekskarb.github.io/redux/',
@@ -47,20 +47,22 @@ class App extends React.Component {
         },],
         skills: [{
             id: 0,
-            title: 'HTML',
-            description: 'normal',
+            title: 'HTML5',
+            description: 'New semantic elements, attributes of form elements, graphic & multimedia elements',
             icon: html
         },
             {
                 id: 1,
-                title: 'CSS',
-                description: 'good',
+                title: 'CSS3',
+                description: 'New selectors, pseudo-elements, pseudo-classes, and combinators, ' +
+                    'support new ways of describing colours, opacity, border-radius, box & text-shadow, ' +
+                    'linear & radial  Gradients, Multiple Background Images, ',
                 icon: css
             },
             {
                 id: 2,
                 title: 'Javascript',
-                description: 'very good',
+                description: 'ES6, callback, recursion, closures, RegExp, promise, context, this, async/await',
                 icon: jas
             },
             {

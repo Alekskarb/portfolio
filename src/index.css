@@ -6,12 +6,13 @@ body {
   color: white;
   /*font-family: 'Dosis', sans-serif;*/
   /*font-family: 'Girassol', cursive;*/
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif !important;
   /*font-family:  "Segoe UI", monospace;*/
 
 }
 
 
 code {
+  font-family: 'Fira Sans', sans-serif;
   /*font-family: 'Baloo Bhaina 2', cursive;*/
 }

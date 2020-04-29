@@ -86,7 +86,7 @@ span .more:after {
     border: 5px solid lightgreen;
     left: -4px;
     top: -17px;
-    box-shadow: 0 0 13px #cccccc;
+    /*box-shadow: 0 0 13px #cccccc;*/
     z-index: -1;
 }
 

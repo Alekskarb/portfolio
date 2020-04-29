@@ -45,13 +45,13 @@
     align-items: center;
     justify-content: space-around;
     margin: 20px;
-    /*position: absolute;*/
     z-index: 0;
-
+  position: relative;
 }
 
 .image {
     display: flex;
+
     height: 300px;
     justify-content: center;
     align-items: center;
@@ -60,40 +60,55 @@
     background-position: 50%;
     width: 250px;
     transition: 1000ms;
-    box-shadow: 0 0 10px 10px darkslategrey;
+    box-shadow: 0 0 5px 1px cyan;
     position: relative;
-    top: 43%;
-    /*left: 50%;*/
-    transform: translateX(-50%);
     z-index: -1;
 }
 
 .image:hover {
     filter: brightness(140%);
     transform: translate(2px);
-    transition: 1s
+    transition: 1s;
+    position: relative;
 }
 
 .buttonClick {
-    font-size: 10pt;
-    margin: 15px;
-    width: 100px;
-    height: 40px;
+    font-size: 8pt;
+    /*margin-bottom: 155px;*/
+    width: 60px;
+    height: 25px;
     border-radius: 10px;
-    font-weight: 800;
-    max-width: 190px;
-    z-index: 44;
-    /*display: none;*/
+    font-weight: 400;
+    max-width: 100px;
+    z-index: 4;
+    opacity: 0;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    /*transform: translateY(50%);*/
 }
 
-.buttonClick:hover:after {
-    position: relative;
-    top: 43%;
-    left: 50%;
-    transform: translateX(50%) scale(1.1, 1.1);
+.buttonClick:hover {
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    transform: scale(1.1, 1.1);
     transition: 1s;
-    display: block;
-  z-index: 44;
+    /*display: block;*/
+    z-index: 4;
+    opacity: 1;
+}
+
+.description {
+    font-size: 12px;
+    /*margin: 10px;*/
+  text-align: center;
+    color: lightcyan;
+  text-decoration: none;
+}
+.underline {
+  text-decoration: none;
+  /*font-family: "Fira Sans";*/
 }
 
 @media screen and (max-width: 1200px) {

@@ -11,17 +11,19 @@ const Works = (props) => {
                     {props.work.map(w =>
                         <div className={s.imgWrapper} key={w.id}>
 
-                                <Rotate top left>
-                                    <div className={s.image}
-                                         style={{backgroundImage: 'url(' + `${w.icon}` + ')'}}></div>
-                                </Rotate>
-                                <button className={s.buttonClick}>
-                                    <a href={w.reference}> WATCH </a>
-                                </button>
+                            <Rotate top left>
+                                <div className={s.image}
+                                     style={{backgroundImage: 'url(' + `${w.icon}` + ')'}}></div>
+                            </Rotate>
+                            <button className={s.buttonClick}>
+                                <a className={s.underline} href={w.reference}> WATCH </a>
+                            </button>
 
+                            <div className={s.description}>
+                                <div> {w.name} </div>
+                                <div> {w.description} </div>
+                            </div>
 
-                            <span> {w.name} </span>
-                            <span> {w.description} </span>
                         </div>)}
 
                 </div>
