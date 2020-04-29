@@ -48,7 +48,8 @@ class App extends React.Component {
         skills: [{
             id: 0,
             title: 'HTML5',
-            description: 'New semantic elements, attributes of form elements, graphic & multimedia elements',
+            description: 'The DOCTYPE declaration & character encoding declaration is very simple. ' +
+                'New semantic elements, attributes of form elements, graphic and multimedia elements',
             icon: html
         },
             {
@@ -61,20 +62,23 @@ class App extends React.Component {
             },
             {
                 id: 2,
-                title: 'Javascript',
-                description: 'ES6, callback, recursion, closures, RegExp, promise, context, this, async/await',
+                title: 'ECMAScript-6',
+                description: 'New string & Arrays features, Callback, Recursion, Modules, Classes, ' +
+                    'Arrow functions, Variables and scoping,  Destructuring, Closures, Regular Expressions,' +
+                    ' Promises, Context, this, async/await, map/reduce/forEach',
                 icon: jas
             },
             {
                 id: 3,
-                title: 'React',
-                description: 'exellent',
+                title: 'the best JavaScript framework among web developers',
+                description: 'Additional syntax in JSX, Components, One-way Data Binding, Virtual DOM - ' +
+                    'ideal solution to high-load application, Simplicity, Performance',
                 icon: react
             },
             {
                 id: 3,
-                title: 'Redux',
-                description: 'incredible',
+                title: ' THREE fundamental principles',
+                description: 'Single source of truth, State is read-only, Changes are made with pure functions',
                 icon: redux
             },],
         footer: [

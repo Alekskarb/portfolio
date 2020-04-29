@@ -11,9 +11,8 @@ const Contacts = () => {
                     <input className={s.form} placeholder='Your Name' name={'contacts'} type='text'/>
                     <input className={s.form} placeholder='e-mail' name={'contacts'} type='email'/>
                     <textarea className={s.form} placeholder='text message' name={'contacts'} />
-                    <button className={s.buttonClick}> SEND
+                    <button className={s.buttonClick} type="submit" value={'SEND'} hidden={false}> SEND
                         {/*<a href="https://alekskarb.github.io/portfolio/"> SEND </a>*/}
-                        <input type="submit" value={'SEND'} hidden={true}/>
                     </button>
                 </form>
             </div>

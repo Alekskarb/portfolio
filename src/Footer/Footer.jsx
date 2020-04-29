@@ -3,7 +3,7 @@ import s from './Footer.module.css';
 
 const Footer = (props) => {
     return (
-        <div className={s.footer}>
+        <div className={s.footer} id={'#5'}>
             <div className={s.main}>
                 <span className={s.title}> Alex Korbutovski </span>
                 <div className={s.wrapper}>

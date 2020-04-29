@@ -2,20 +2,19 @@
     width: 300px;
     display: flex;
     justify-content: space-evenly;
-    z-index: 1111;
+    z-index: 111;
     scroll-behavior: smooth
 }
-.link:link {
-    color: yellow;
-}
 
-.link:visited {
-    color: green;
-}
 .link {
     color: cyan;
 }
-.link:active {
+
+/*.link:visited {*/
+/*    color: green;*/
+/*}*/
+
+.link.active {
      color: red;
  }
 .link:hover {

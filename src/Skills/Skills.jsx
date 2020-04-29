@@ -14,8 +14,11 @@ const Skills = (props) => {
                         <div className={s.icon}>
                             <img src={sk.icon} width='80%' alt='the world is mine'/>
                         </div>
-                        <h3> {sk.title} </h3>
-                        <span> {sk.description} </span>
+                        <div className={s.description}>
+                            <h3> {sk.title} </h3>
+                            <span> {sk.description} </span>
+                        </div>
+
                     </div>)}
                 </div>
             </Flip>
