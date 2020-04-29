@@ -20,7 +20,7 @@ const Works = (props) => {
                             </button>
 
                             <div className={s.description}>
-                                <div> {w.name} </div>
+                                <h3> {w.name} </h3>
                                 <div> {w.description} </div>
                             </div>
 

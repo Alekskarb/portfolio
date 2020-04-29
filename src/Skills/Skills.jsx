@@ -16,7 +16,7 @@ const Skills = (props) => {
                         </div>
                         <div className={s.description}>
                             <h3> {sk.title} </h3>
-                            <span> {sk.description} </span>
+                            <div> {sk.description} </div>
                         </div>
 
                     </div>)}

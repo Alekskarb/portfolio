@@ -25,22 +25,23 @@ class App extends React.Component {
     state = {
         work: [{
             id: 0,
-            name: 'counter',
-            description: 'Use React, ',
+            name: 'Social Net',
+            description: 'Work with API, server, promises, middleware, connect,' +
+                ' mdtp, mstp, compose, withRouter, Reselect, ',
             icon: project1,
             reference: 'https://github.com/Alekskarb/React_SN',
             // reference: 'https://alekskarb.github.io/React_SN/',
         }, {
             id: 1,
-            name: 'social net',
-            description: 'Use React-Redux, thunk, axios',
+            name: 'Counter Value',
+            description: 'Use ECMAScript and React, new features, function declaration, expressions, callbacks',
             icon: project2,
             reference: 'https://github.com/Alekskarb/redux',
             // reference: 'https://alekskarb.github.io/redux/',
         }, {
             id: 2,
-            name: 'redux',
-            description: 'calculator',
+            name: 'Redux Thunk',
+            description: 'ToDoList, created with use createReducer, actions, actions creators, Redux-Dux, Provider, Context, Class Component, Life-Cycle-Methods',
             icon: project3,
             reference: 'https://github.com/Alekskarb/Thunk',
             // reference: 'https://alekskarb.github.io/Thunk/',
@@ -77,20 +78,15 @@ class App extends React.Component {
             },
             {
                 id: 3,
-                title: ' THREE fundamental principles',
-                description: 'Single source of truth, State is read-only, Changes are made with pure functions',
+                title: ' THREE fundamental principles of REDUX',
+                description: '* Single source of truth, * State is read-only, * Changes are made with pure functions',
                 icon: redux
             },],
         footer: [
             {id: 0, title: 'linkedin', icon: linkedin, reference: 'https://www.linkedin.com/in/skarb/',},
             {id: 1, title: 'Gmail', icon: Gmail, reference: 'https://github.com/Alekskarb',},
             {id: 2, title: 'Telegram', icon: Telegram, reference: 'https://t.me/Alekskarb',},
-            {
-                id: 3,
-                title: 'codewars',
-                icon: codewars,
-                reference: 'https://www.codewars.com/users/Alekskarb/completed',
-            },
+            {id: 3, title: 'codewars', icon: codewars, reference: 'https://www.codewars.com/users/Alekskarb/completed',},
         ]
     };
 
