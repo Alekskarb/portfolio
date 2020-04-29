@@ -48,15 +48,21 @@
 
 .buttonClick
 {
-  font-size: 10pt;
+  font-size: 9pt;
   margin: 15px;
-  width: 100px;
-  height: 40px;
+  width: 74px;
+  height: 30px;
   border-radius: 10px;
   background-color: lightgreen;
   font-weight: 800;
   max-width: 190px;
   z-index: 0;
+
+}
+a {
+  text-decoration: none;
+  color: darkviolet;
+  /*font-family: "Fira Sans";*/
 }
 .buttonClick:hover{
   transform: scale(1.1, 1.1);

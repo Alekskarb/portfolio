@@ -72,15 +72,16 @@ input textarea {
 }
 
 .buttonClick {
-    font-size: 10pt;
+    font-size: 9pt;
     margin-bottom: 25px;
-    width: 100px;
-    height: 40px;
+    width: 70px;
+    height: 30px;
     border-radius: 10px;
     background-color: lightgreen;
     font-weight: 800;
     max-width: 190px;
     z-index: 0;
+    color: darkviolet;
 }
 
 
